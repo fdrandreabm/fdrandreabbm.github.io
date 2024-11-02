@@ -1,0 +1,102 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: #c20202;
+}
+
+header, .main, footer {
+	width: 90%;
+	max-width: 10000px;
+	margin: 20px auto;
+}
+
+
+body{
+    background: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif
+    }
+
+    .btn{
+    
+        background: #ac2605;
+        color: #FFF;
+        font-size: 16px;
+        text-decoration: none;
+        padding: 15px 20px;
+        display: inline-block;
+        margin: 10px;
+    }
+.extra-big{
+    font-size: 20px; 
+    padding: 25px 30px;
+    }
+    /*colores*/
+    .azul{
+    background: #ac2605;
+    }
+    /*redondear botones*/
+    .border{
+        border-radius: 100px;
+    }
+
+header nav ul{
+	list-style: none;
+}
+header nav ul li a{
+	padding: 10px 20px;
+	display: block;
+	color: #fcfcfc;
+	text-decoration: none;
+
+}
+
+header nav ul li a:hover{
+	background: #0662cc;
+
+}
+.main ,articles{
+	width: 68.5%;
+	margin-right: 1.5%;
+	float: left;
+}
+
+.main .articles article{
+	padding: 20px;
+	background: #1d08df;
+	margin-bottom: 20px;
+}
+
+aside{
+	width: 30%;
+	background: #3808e6;
+	float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+ 
+ footer{
+   background: #ffffff;
+   color: #fff;
+   clear: both;
+   padding: 10px 0px;
+   text-align: center;
+
+ }
+ @media screen and (max-width:800px){
+   body{
+           background: #fffefe;
+   }
+
+   header{
+   width: 100px;
+   }
+   aside{
+       width: 100px;
+       background: #fff;
+       color: #070606;
+       
+   }
+ }
